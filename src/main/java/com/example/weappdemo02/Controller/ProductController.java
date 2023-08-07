@@ -24,4 +24,9 @@ public class ProductController {
 
         return ResponseData.ok(productService.getProductList());
     }
+    @GetMapping("/test1List")
+    public ResponseData test1List(){
+
+        return ResponseData.ok(productService.getProductList());
+    }
 }
