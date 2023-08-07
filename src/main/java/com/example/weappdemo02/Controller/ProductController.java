@@ -19,4 +19,9 @@ public class ProductController {
 
         return ResponseData.ok(productService.getProductList());
     }
+    @GetMapping("/testList")
+    public ResponseData testList(){
+
+        return ResponseData.ok(productService.getProductList());
+    }
 }
