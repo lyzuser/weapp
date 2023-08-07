@@ -1,0 +1,13 @@
+server:
+  port: 9000
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Aa.2522119776
+    url: jdbc:mysql://localhost:3306/weapp?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
+
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+
